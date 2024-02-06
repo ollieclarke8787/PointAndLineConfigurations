@@ -1,3 +1,4 @@
+
 -- 12 points in a grid point-line configuration
 
 load "gridGens.m2"
@@ -67,6 +68,7 @@ for f in first entries gens P2 do (
     print zero (f % P2')
     )
 
+end --
 -- All generators of each ideal reduce to zero so the ideals are equal
 
 -- check the degree limit that the GB computations needed
@@ -137,3 +139,7 @@ M = matrix {
 f = det M^{0,1,2,3, 4,5, 8,9, 12,13}_{0,1,2,3,4,5,6,7,8,9};
 f % P2'
 
+-----------------
+load "gridExample.m2"
+I = ideal dets
+J = radical I;
