@@ -63,7 +63,7 @@ for L in QSInds do (
     print(L, zero(QSgen L % P2))
     )
 
-print "-- inclusion of P2 inside P2'o"
+print "-- inclusion of P2 inside P2'"
 for f in first entries gens P2 do (
     print zero (f % P2')
     )
